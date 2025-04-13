@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="neutralBg">#ECECEC</color>
+    <color name="bgX">#F48FB1</color>        <!-- Light Pink -->
+    <color name="bgO">#90CAF9</color>        <!-- Light Blue -->
+    <color name="bgWin">#A5D6A7</color>      <!-- Light Green -->
+</resources>

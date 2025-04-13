@@ -1,0 +1,64 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="#1E1E2F"
+    tools:context=".MainActivity">
+
+<GridLayout
+android:id="@+id/gridLayout"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:columnCount="3"
+android:rowCount="3"
+android:alignmentMode="alignMargins"
+android:useDefaultMargins="true">
+
+<!-- All 9 buttons with the same style -->
+<Button
+    android:id="@+id/btn1"
+    style="@style/TicTacToeButton"/>
+<Button
+    android:id="@+id/btn2"
+    style="@style/TicTacToeButton"/>
+<Button
+    android:id="@+id/btn3"
+    style="@style/TicTacToeButton"/>
+<Button
+    android:id="@+id/btn4"
+    style="@style/TicTacToeButton"/>
+<Button
+    android:id="@+id/btn5"
+    style="@style/TicTacToeButton"/>
+<Button
+    android:id="@+id/btn6"
+    style="@style/TicTacToeButton"/>
+<Button
+    android:id="@+id/btn7"
+    style="@style/TicTacToeButton"/>
+<Button
+    android:id="@+id/btn8"
+    style="@style/TicTacToeButton"/>
+<Button
+    android:id="@+id/btn9"
+    style="@style/TicTacToeButton"/>
+</GridLayout>
+
+    <!-- Reset Button -->
+<Button
+android:id="@+id/resetButton"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Reset Game"
+android:layout_marginTop="32dp"
+android:padding="10dp"
+android:textSize="16sp"
+android:backgroundTint="#FF9800"
+android:textColor="#FFFFFF"
+android:onClick="resetGame"/>
+    </LinearLayout>

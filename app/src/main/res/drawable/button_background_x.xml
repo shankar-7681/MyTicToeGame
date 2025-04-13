@@ -1,0 +1,6 @@
+<!-- button_background_x.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="#FF5722"/> <!-- Orange -->
+    <corners android:radius="12dp"/>
+</shape>
